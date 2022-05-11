@@ -32,4 +32,3 @@ class CountArticle extends Command
         $this->info(Tag::find($id)->articles->count());
     }
 }
-
