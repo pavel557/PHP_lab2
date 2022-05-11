@@ -16,3 +16,4 @@ class Tag extends Model
     return $this->belongsToMany(Article::class, 'article_tag', 'tag_id', 'article_id');
   }
 }
+

@@ -24,3 +24,4 @@ class Article_tagFactory extends Factory
         ];
     }
 }
+

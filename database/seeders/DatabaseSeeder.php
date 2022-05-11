@@ -18,3 +18,4 @@ class DatabaseSeeder extends Seeder
         Article_tag::factory($rows_to_add_count)->create();
     }
 }
+

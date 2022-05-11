@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/posts', [ArticleController::class, 'showAll']);
 Route::get('/posts/{code}', [ArticleController::class, 'showOne']);
+

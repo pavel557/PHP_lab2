@@ -11,3 +11,4 @@ class Article_tag extends Model
     public $timestamps = false;
     protected $table = 'article_tag';
 }
+
