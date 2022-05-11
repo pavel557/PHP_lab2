@@ -3,7 +3,6 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use App\Models\Article;
 use App\Models\Tag;
 
 class CountArticle extends Command
